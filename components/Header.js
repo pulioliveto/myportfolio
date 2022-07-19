@@ -8,7 +8,7 @@ const Header = () => {
 				<div className="container-fluid">
 					<Link href="/">
 					<a id="title_name" className="navbar-brand ms-3 text-light" >
-						&lt;Emiliano_Oliveto /&gt;
+						Emiliano Oliveto
 					</a>
 					</Link>
 					

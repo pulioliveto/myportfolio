@@ -64,7 +64,7 @@ const Techme = () => {
 							/>
 							</picture>
 						</div>
-						<a href="https://github.com/pulioliveto" target="_blank">
+						<a href="https://github.com/pulioliveto" target="_blank" rel="noreferrer noopener">
 							<button className="btn btn-light mt-5 rounded-pill">
 								Check my github
 							</button>

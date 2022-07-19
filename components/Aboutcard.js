@@ -1,3 +1,4 @@
+import Image from 'next/image'
 const Aboutcard = () => {
   return (
     <header className="row container py-5 m-auto">
@@ -6,7 +7,7 @@ const Aboutcard = () => {
 							<div className="row">
 								<div className="col-md-4">
 									<img
-										src="Captura.jpg"
+										src='/Captura.jpg'
 										alt="logo"
 										className="img-fluid img-thumbnail rounded-circle ms-3 shadow-sm bg-primary"
 									/>
