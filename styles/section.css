@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
-section {
+body{
+    background-color: #eaeaea;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#tech {
     background: #303030;
     background-image:url(../public/background.jpg);
     background-blend-mode: multiply;
@@ -10,11 +15,6 @@ section {
 
 .carta-header{
     background: linear-gradient(to right, #193A4B 0%, #00020B 100%);
-}
-
-body{
-    background-color: #eaeaea;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #header-a{
@@ -50,10 +50,6 @@ body{
     }
 }
 
-/* #work{
-    background:linear-gradient(to right, #193A4B 0%, #00020B 100%); */
-/* } */
-
 .trabajos img{
     margin-left: 15px;
     margin-bottom:15px;
@@ -82,8 +78,4 @@ body{
     transform:scale(1.2);
     transition: 0.2s;
 }
-@media screen and (max-width: 768px){
-    #title_name{
-        margin: 0 auto;
-    }
-}
+
