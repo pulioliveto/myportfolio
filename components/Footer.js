@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 
 const Footer = () => {
   return (
@@ -7,14 +7,15 @@ const Footer = () => {
 					<a
 						href="mailto:emilianooliveto02@gmail.com"
 						target="_blank"
+						rel="noopener noreferrer"
 						className="text-light"
 					>
 						emilianooliveto02@gmail.com
 					</a>
 					<div className="contact-container d-flex justify-content-center mt-3">
 						<a
-							href="https://www.linkedin.com/in/emilianooliveto/" rel="noreferrer"
-							target="_blank"
+							href="https://www.linkedin.com/in/emilianooliveto/" target="_blank" rel="noopener noreferrer"
+							
 						>
 							<picture>
 							<img
@@ -24,7 +25,7 @@ const Footer = () => {
 							/>
 							</picture>
 						</a>
-						<a href="https://github.com/pulioliveto" rel="noreferrer" target="_blank">
+						<a href="https://github.com/pulioliveto" target="_blank" rel="noopener noreferrer" >
 							<picture>
 							<img
 								height="30px"
@@ -33,7 +34,7 @@ const Footer = () => {
 							/>
 							</picture>
 						</a>
-						<a href="https://twitter.com/DevPul" rel="noreferrer" target="_blank">
+						<a href="https://twitter.com/DevPul" target="_blank" rel="noopener noreferrer" >
 						<picture>
 							<img
 								height="30px"
@@ -42,7 +43,7 @@ const Footer = () => {
 							/>
 						</picture>
 						</a>
-						<a href="https://platzi.com/p/pulioliveto/" rel="noreferrer" target="_blank">
+						<a href="https://platzi.com/p/pulioliveto/" target="_blank" rel="noopener noreferrer" >
 						<picture>
 							<img
 								height="30px"

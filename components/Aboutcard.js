@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 const Aboutcard = () => {
   return (
     <header className="row container py-5 m-auto">

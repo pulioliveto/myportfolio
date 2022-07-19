@@ -9,7 +9,8 @@ function MyApp({ Component, pageProps }) {
 			<title>Emiliano Oliveto</title>
 		</Head>
 		<Component {...pageProps} />
-	</>)
+	</>
+	)
 
 }
 
