@@ -3,7 +3,7 @@
 const Works = () => {
   return (
     <main id="work" className=" pb-5 text-center bg-primary">
-					<p className="display-4 text-light fw-bold pt-5">My Work&apos;s</p>
+					<p id='subtitle' className="display-4 text-light fw-bold pt-5">Work&apos;s</p>
 					<p>see my work</p>
 					<div className="container trabajos d-flex flex-wrap justify-content-center">
 						<a href="https://pricebitcoin.netlify.app/" target="_blank" rel="noopener noreferrer" >

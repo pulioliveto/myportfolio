@@ -3,8 +3,8 @@ const Techme = () => {
   return (
 	<section id="tech" className="pb-5">
 					<div className="text-center">
-						<p className="text-light bg-gradient display-2 py-5 fw-bold ">
-							My Technologies
+						<p id="subtitle" className="text-light bg-gradient display-2 py-5 fw-bold ">
+							Technologies
 						</p>
 						<div className="img-technologies container d-flex flex-wrap justify-content-center p-3">
 							<picture>

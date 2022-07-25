@@ -25,7 +25,14 @@ body{
 .img-technologies img{
     margin-left:30px;
     margin-bottom:10px;
-   
+    height:100px;
+    transition:0.7s;
+}
+.img-technologies img:hover{
+    transition:0.7s;
+    transform:scale(2); 
+    /* transform: rotateY(180deg); */
+    
 }
     
 
@@ -80,6 +87,9 @@ body{
 }
 
 @media screen and (max-width: 425px) {
+    #subtitle{
+        font-size:50px;
+    }
     #title-name{
         white-space: normal;
         margin:0 auto;
@@ -99,5 +109,14 @@ body{
         display:inline-block;
         margin:0 auto;
         
+    }
+    .img-technologies img{
+        text-align:center;
+        margin:0 auto;
+        flex-wrap:wrap;
+        height: 100px;
+        margin-left: 15px;
+        margin-top:20px;
+
     }
 }
