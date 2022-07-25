@@ -79,3 +79,25 @@ body{
     transition: 0.2s;
 }
 
+@media screen and (max-width: 425px) {
+    #title-name{
+        white-space: normal;
+        margin:0 auto;
+        border:none;
+        animation:none;
+        width: 10ch;
+        font-size:45px;
+    }
+    header{
+        text-align:center;
+    }
+    header h2 {
+        font-size: 30px;
+    }
+    header img {
+        width:250px;
+        display:inline-block;
+        margin:0 auto;
+        
+    }
+}
