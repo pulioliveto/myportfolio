@@ -43,7 +43,7 @@ const Techme = () => {
 							<img
 								className="rounded-3 img-technology"
 								height="75px"
-								src="http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png"
+								src="git.png"
 								alt="logo-git"
 							/>
 							</picture>
